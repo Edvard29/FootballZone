@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "270913605369",
+    "project_id": "football-zone-5b9a5",
+    "storage_bucket": "football-zone-5b9a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270913605369:android:a28f2668859368cb09dc28",
+        "android_client_info": {
+          "package_name": "com.example.footballzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnZl1KpjISodIRmqfISsXwPDVemiEokk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
