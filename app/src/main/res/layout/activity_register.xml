@@ -69,9 +69,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="signup"
         android:text="Sign up"
         android:textAllCaps="false"
+        android:textColorLink="@color/green"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -99,17 +99,17 @@
         android:text="Login"
         android:textSize="19sp"
         android:textStyle="bold"
-        android:onClick="signin"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="@+id/textView2" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="210dp"
-        android:layout_height="226dp"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

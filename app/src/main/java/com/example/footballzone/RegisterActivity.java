@@ -37,12 +37,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        usernameTitle = findViewById(R.id.userTitle);
-        emailTitle = findViewById(R.id.mailTitle);
-        passwordTitle = findViewById(R.id.passTitle);
-        continueButton = findViewById(R.id.button);
-        lockIcon = findViewById(R.id.imageView5);
-        peopleIcon = findViewById(R.id.imageView6);
+
 
         continueButton.setOnClickListener(new View.OnClickListener() {
             @Override
